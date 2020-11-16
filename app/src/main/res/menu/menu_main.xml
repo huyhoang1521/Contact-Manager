@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.contactmanager.MainActivity">
+    <item
+        android:id="@+id/new_contact"
+        android:title="@string/new_contact"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/import_contacts"
+        android:title="@string/importContacts"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/reinitialize_contacts"
+        android:title="@string/reintContacts"
+        app:showAsAction="collapseActionView" />
+
+</menu>
